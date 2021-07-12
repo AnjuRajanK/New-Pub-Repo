@@ -1,0 +1,7 @@
+class test1{
+Public static void main()
+{
+system.out.println("test1");
+return  0;
+}
+}

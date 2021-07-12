@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nPortal__Route__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Maps to a UI Route. The selected Document will be displayed on this Route.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>UI Route which will display this document on an Online Application</inlineHelpText>
+    <label>Route</label>
+    <referenceTo>nFORCE__Route__c</referenceTo>
+    <relationshipLabel>Route Terms</relationshipLabel>
+    <relationshipName>Route_Terms</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

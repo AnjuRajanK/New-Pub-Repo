@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Treasury_Management_Settings</fullName>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <columns>NAME</columns>
+    <columns>LLC_BI__Category_Name__c</columns>
+    <columns>LLC_BI__Key__c</columns>
+    <columns>LLC_BI__Value__c</columns>
+    <columns>LLC_BI__Is_Active__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LLC_BI__Category_Name__c</field>
+        <operation>equals</operation>
+        <value>TM Maintenance</value>
+    </filters>
+    <filters>
+        <field>LLC_BI__Category_Name__c</field>
+        <operation>equals</operation>
+        <value>TM Proforma</value>
+    </filters>
+    <filters>
+        <field>LLC_BI__Category_Name__c</field>
+        <operation>equals</operation>
+        <value>Treasury Services Summary</value>
+    </filters>
+    <label>Treasury Management Settings</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nRetail__New_Retail_Loan</fullName>
+    <availability>online</availability>
+    <description>Custom &quot;New&quot; list button for Retail Loans in Financial Services Cloud</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/apex/nRETAIL__NewLoan?app=new-loan.new-retail-loan-product&amp;id={!Account.Id}&amp;sourceObjectId={!Account.Id}</url>
+</WebLink>

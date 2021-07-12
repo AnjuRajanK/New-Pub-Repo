@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WKDDP__nCino_Code__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This optional text field houses the middleware code that designates which schema roles are added to the entity. It is visible to administrators.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Populate this field with the corresponding role code.</inlineHelpText>
+    <label>nCino Code</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

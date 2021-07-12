@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LLC_BI__Insurance_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is optional and manually populated. It is the type of insurance policy.</description>
+    <externalId>false</externalId>
+    <label>Insurance Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Flood</fullName>
+                <default>false</default>
+                <label>Flood</label>
+            </value>
+            <value>
+                <fullName>Hazard</fullName>
+                <default>false</default>
+                <label>Hazard</label>
+            </value>
+            <value>
+                <fullName>Life Insurance</fullName>
+                <default>false</default>
+                <label>Life Insurance</label>
+            </value>
+            <value>
+                <fullName>Workman&apos;s Comp</fullName>
+                <default>false</default>
+                <label>Workman&apos;s Comp</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

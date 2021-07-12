@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LLC_BI__Matrix_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Users populate this required field to specify the matrix type. By default, it is blank.</description>
+    <externalId>false</externalId>
+    <label>Matrix Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Base Rate Matrix</fullName>
+                <default>false</default>
+                <label>Base Rate Matrix</label>
+            </value>
+            <value>
+                <fullName>Rate Adjustment</fullName>
+                <default>false</default>
+                <label>Rate Adjustment</label>
+            </value>
+            <value>
+                <fullName>Income Policy</fullName>
+                <default>false</default>
+                <label>Income Policy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

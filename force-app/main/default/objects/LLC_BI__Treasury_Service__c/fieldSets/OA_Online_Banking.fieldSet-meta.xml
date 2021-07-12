@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OA_Online_Banking</fullName>
+    <description>Used on the Online Banking Recommended Product within Online Applications</description>
+    <label>OA - Online Banking</label>
+</FieldSet>

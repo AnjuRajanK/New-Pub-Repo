@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Scorecards</fullName>
+    <columns>NAME</columns>
+    <columns>LLC_BI__Loan__c</columns>
+    <columns>LLC_BI__Assigned_Points__c</columns>
+    <columns>LLC_BI__Maximum_Points__c</columns>
+    <columns>LLC_BI__Result__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Mine</filterScope>
+    <label>All Scorecards</label>
+</ListView>

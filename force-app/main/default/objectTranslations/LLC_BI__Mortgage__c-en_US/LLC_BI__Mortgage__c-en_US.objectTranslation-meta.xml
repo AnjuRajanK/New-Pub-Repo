@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>LLC_BI__Purchase_Mortgage_Test</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>LLC_BI__Recalculate_Offers</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>RMOR__Cash_Out_Mortgage_Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>RMOR__Financial_Overview</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>RMOR__Purchase_Mortgage_Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>RMOR__Purchase_Mortgage_Test</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>RMOR__Rate_Term_Mortgage_Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>RMOR__Recalculate_Offers</name>
+    </fieldSets>
+</CustomObjectTranslation>

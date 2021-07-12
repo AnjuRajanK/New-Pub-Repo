@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ALL_Credit_Memos</fullName>
+    <columns>NAME</columns>
+    <columns>LLC_BI__Description__c</columns>
+    <columns>LLC_BI__Object_API_Name__c</columns>
+    <columns>LLC_BI__Is_Template__c</columns>
+    <columns>LLC_BI__Is_Disabled__c</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>ALL Credit Memos</label>
+    <language>en_US</language>
+</ListView>

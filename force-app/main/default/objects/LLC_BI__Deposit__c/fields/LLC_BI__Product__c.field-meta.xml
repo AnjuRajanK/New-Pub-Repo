@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LLC_BI__Product__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is optional and can be collected as part of a workflow. This field is a picklist that allows the user to specify what product the deposit is associated with.</description>
+    <externalId>false</externalId>
+    <label>Product</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LLC_BI__Product_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Commercial Checking Account</fullName>
+                <default>false</default>
+                <label>Commercial Checking Account</label>
+            </value>
+            <value>
+                <fullName>Commercial Savings Account</fullName>
+                <default>false</default>
+                <label>Commercial Savings Account</label>
+            </value>
+            <value>
+                <fullName>Preferred Checking Account</fullName>
+                <default>false</default>
+                <label>Preferred Checking Account</label>
+            </value>
+            <value>
+                <fullName>Preferred Savings Account</fullName>
+                <default>false</default>
+                <label>Preferred Savings Account</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Consumer Checking</controllingFieldValue>
+            <valueName>Preferred Checking Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Savings</controllingFieldValue>
+            <valueName>Preferred Savings Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Checking</controllingFieldValue>
+            <valueName>Commercial Checking Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Savings</controllingFieldValue>
+            <valueName>Commercial Savings Account</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

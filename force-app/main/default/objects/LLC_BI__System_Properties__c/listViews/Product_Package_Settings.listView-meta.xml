@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Package_Settings</fullName>
+    <booleanFilter>1 or 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>LLC_BI__Category_Name__c</columns>
+    <columns>LLC_BI__Is_Active__c</columns>
+    <columns>LLC_BI__Key__c</columns>
+    <columns>LLC_BI__Value__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LLC_BI__Category_Name__c</field>
+        <operation>contains</operation>
+        <value>product</value>
+    </filters>
+    <filters>
+        <field>LLC_BI__Category_Name__c</field>
+        <operation>contains</operation>
+        <value>deal</value>
+    </filters>
+    <label>Product Package Settings</label>
+    <language>en_US</language>
+</ListView>

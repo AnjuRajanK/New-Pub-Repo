@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OA_Credit_Card_Details</fullName>
+    <description>Used in the OA Ancillary Service Screen associated to the Retail High-Interest Credit Card product.</description>
+    <displayedFields>
+        <field>NameonCreditCard__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>OA - Credit Card Details</label>
+</FieldSet>

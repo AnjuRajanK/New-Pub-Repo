@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WKDDP__Skip_DocPrep_iFrame__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Administrators select this optional boolean field to skip Docviewer for completely-mapped products. By default, it is false.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select this checkbox to skip Docview for completely-mapped products.</inlineHelpText>
+    <label>Skip DocPrep iFrame</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

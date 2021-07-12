@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WKDDP__Alternate_Signature_Description__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Users populate this optional text field that provides a description of the alternate text to print under a signature line for this signer. This is used if something other than the signer&apos;s name should print under the signature line.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the description of the alternate text to print under a signature line for this user, which is used when something other than the signer&apos;s name.</inlineHelpText>
+    <label>Alternate Signature Description</label>
+    <length>1000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

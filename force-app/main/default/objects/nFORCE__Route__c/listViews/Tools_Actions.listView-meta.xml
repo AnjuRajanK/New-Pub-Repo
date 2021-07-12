@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tools_Actions</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>nFORCE__App__c</columns>
+    <columns>nFORCE__Body__c</columns>
+    <columns>nFORCE__Screen__c</columns>
+    <columns>nFORCE__Topbar__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>nFORCE__App__c</field>
+        <operation>contains</operation>
+        <value>action-</value>
+    </filters>
+    <filters>
+        <field>nFORCE__App__c</field>
+        <operation>contains</operation>
+        <value>tool-</value>
+    </filters>
+    <label>Tools &amp; Actions</label>
+</ListView>

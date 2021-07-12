@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>In_Progress_Loans</fullName>
+    <columns>NAME</columns>
+    <columns>LLC_BI__lookupKey__c</columns>
+    <columns>LLC_BI__Stage__c</columns>
+    <columns>LLC_BI__Amount__c</columns>
+    <columns>LLC_BI__InterestRate__c</columns>
+    <columns>LLC_BI__Term_Months__c</columns>
+    <columns>LLC_BI__Product_Line__c</columns>
+    <columns>LLC_BI__Product_Type__c</columns>
+    <columns>LLC_BI__Product__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LLC_BI__Stage__c</field>
+        <operation>notEqual</operation>
+        <value>Booked,Complete</value>
+    </filters>
+    <label>In-Progress Loans</label>
+    <sharedTo>
+        <allPartnerUsers></allPartnerUsers>
+    </sharedTo>
+</ListView>

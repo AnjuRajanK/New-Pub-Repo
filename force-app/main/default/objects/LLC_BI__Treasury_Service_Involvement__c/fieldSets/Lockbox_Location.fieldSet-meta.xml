@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lockbox_Location</fullName>
+    <description>This is used as a one-to-many field for tracking lockbox locations</description>
+    <displayedFields>
+        <field>Lockbox_Location__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Lockbox Location</label>
+</FieldSet>

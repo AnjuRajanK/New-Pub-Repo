@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WKDDP__CSI_Mapping_Code__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is required in order to use the CSi DocPrep integration. It is used to store the mapping code relating Ownership Types in nCino to CSi.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is required in order to use the CSi DocPrep integration. It is used to store the mapping code relating Ownership Types in nCino to CSi.</inlineHelpText>
+    <label>CSi Mapping Code</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

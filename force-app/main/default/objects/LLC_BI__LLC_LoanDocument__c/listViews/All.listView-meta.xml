@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>LLC_BI__Loan__c</columns>
+    <columns>LLC_BI__docType__c</columns>
+    <columns>LLC_BI__docClass__c</columns>
+    <columns>LLC_BI__Portal_Enabled__c</columns>
+    <columns>LLC_BI__Portal_Doc_Name__c</columns>
+    <columns>LLC_BI__Portal_Doc_Description__c</columns>
+    <columns>NDOC__Portal_Rejection_Comment__c</columns>
+    <columns>LLC_BI__reviewStatus__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

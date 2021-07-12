@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WKDDP__Suppress_Signature__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Users select this optional boolean field when the account holder should not print in the signature block of the signature card. By default, it is false.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select this checkbox when the account holder should not print in the signature block of the signature card.</inlineHelpText>
+    <label>Suppress Signature</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

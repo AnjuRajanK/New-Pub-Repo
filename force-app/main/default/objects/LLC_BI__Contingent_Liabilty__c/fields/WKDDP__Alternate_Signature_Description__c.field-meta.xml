@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WKDDP__Alternate_Signature_Description__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Users populate this optional text field with a description of the alternate text to print under a signature line for this power of attorney. This text is the power of attorney&apos;s name and description.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the power of attorney&apos;s name and description to display under the signature line for the power of attorney.</inlineHelpText>
+    <label>Alternate Signature Description</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

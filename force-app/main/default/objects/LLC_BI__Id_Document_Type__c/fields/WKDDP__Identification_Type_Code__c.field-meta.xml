@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WKDDP__Identification_Type_Code__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Administrators select the type of identification provided by the additional signature from this optional picklist.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the type of identification the additional signature provides.</inlineHelpText>
+    <label>Identification Type Code</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Driver&apos;s License</fullName>
+                <default>false</default>
+                <label>Driver&apos;s License</label>
+            </value>
+            <value>
+                <fullName>Passport</fullName>
+                <default>false</default>
+                <label>Passport</label>
+            </value>
+            <value>
+                <fullName>Military Identification Card</fullName>
+                <default>false</default>
+                <label>Military Identification Card</label>
+            </value>
+            <value>
+                <fullName>State Issued Identification Card</fullName>
+                <default>false</default>
+                <label>State Issued Identification Card</label>
+            </value>
+            <value>
+                <fullName>United States Citizenship and Immigration Services (USCIS) Documentation</fullName>
+                <default>false</default>
+                <label>United States Citizenship and Immigration Services (USCIS) Documentation</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>NATO ID</fullName>
+                <default>false</default>
+                <label>NATO ID</label>
+            </value>
+            <value>
+                <fullName>Other Military Status of Forces ID</fullName>
+                <default>false</default>
+                <label>Other Military Status of Forces ID</label>
+            </value>
+            <value>
+                <fullName>U.S. Department of State ID</fullName>
+                <default>false</default>
+                <label>U.S. Department of State ID</label>
+            </value>
+            <value>
+                <fullName>U.S. Department of Homeland Security ID</fullName>
+                <default>false</default>
+                <label>U.S. Department of Homeland Security ID</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

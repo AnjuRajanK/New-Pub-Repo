@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commercial_Deposits</fullName>
+    <columns>NAME</columns>
+    <columns>LLC_BI__Stage__c</columns>
+    <columns>LLC_BI__Status__c</columns>
+    <columns>LLC_BI__Product__c</columns>
+    <columns>LLC_BI__Amount__c</columns>
+    <columns>LLC_BI__Account__c</columns>
+    <columns>LLC_BI__Account_Number__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LLC_BI__Product_Type__c</field>
+        <operation>equals</operation>
+        <value>Business Checking,Business Savings</value>
+    </filters>
+    <label>Commercial Deposits</label>
+</ListView>

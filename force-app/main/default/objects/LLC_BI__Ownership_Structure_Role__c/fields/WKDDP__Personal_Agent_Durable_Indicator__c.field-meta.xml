@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WKDDP__Personal_Agent_Durable_Indicator__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Users select this optional boolean field if any personal agent assigned on the account is durable (continues after the legal incompetency of the account holder and terminating only at death). By default, this field is false.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox to indicate that any personal agent assigned on the account is durable.</inlineHelpText>
+    <label>Personal Agent Durable Indicator</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

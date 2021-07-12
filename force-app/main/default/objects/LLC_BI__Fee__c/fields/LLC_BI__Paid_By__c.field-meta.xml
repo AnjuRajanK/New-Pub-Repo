@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LLC_BI__Paid_By__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is a picklist that allows the user to specify who is responsible for paying this fee. This value will determine if the &quot;is Paid by Seller&quot; , &quot;is Paid by Lender&quot; or &quot; is Paid by Borrower&quot; checkbox is populated. Each fee will only have 1 selection.</description>
+    <externalId>false</externalId>
+    <label>Paid By</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Borrower</fullName>
+                <default>true</default>
+                <label>Borrower</label>
+            </value>
+            <value>
+                <fullName>Lender</fullName>
+                <default>false</default>
+                <label>Lender</label>
+            </value>
+            <value>
+                <fullName>Seller</fullName>
+                <default>false</default>
+                <label>Seller</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

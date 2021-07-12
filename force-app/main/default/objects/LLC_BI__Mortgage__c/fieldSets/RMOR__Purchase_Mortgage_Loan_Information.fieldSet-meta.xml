@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RMOR__Purchase_Mortgage_Loan_Information</fullName>
+    <description>The user populates this fieldset to begin the residential mortgage loan process. By default, all rich text fields are blank, and the picklist is set to the lowest rate value.</description>
+    <displayedFields>
+        <field>LLC_BI__Purchase_Price_2__c</field>
+        <isFieldManaged>true</isFieldManaged>
+        <isRequired>true</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>LLC_BI__Down_Payment_2__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>LLC_BI__Loan__r.LLC_BI__Postal_Code__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Purchase - Mortgage Loan Information</label>
+</FieldSet>

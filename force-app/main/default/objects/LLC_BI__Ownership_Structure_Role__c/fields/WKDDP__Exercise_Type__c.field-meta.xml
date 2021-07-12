@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WKDDP__Exercise_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Users select whether the power of attorneys for the holder may exercise powers independently or jointly from this optional picklist.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select whether the power of attorneys for the holder may exercise powers independently or jointly.</inlineHelpText>
+    <label>Exercise Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Independently</fullName>
+                <default>false</default>
+                <label>Independently</label>
+            </value>
+            <value>
+                <fullName>Jointly</fullName>
+                <default>false</default>
+                <label>Jointly</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

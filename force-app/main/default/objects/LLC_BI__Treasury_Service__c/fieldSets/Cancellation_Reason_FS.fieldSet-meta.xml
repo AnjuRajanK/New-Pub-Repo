@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancellation_Reason_FS</fullName>
+    <description>Cancellation Reason FS</description>
+    <displayedFields>
+        <field>Cancellation_Reason__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Cancellation Reason FS</label>
+</FieldSet>

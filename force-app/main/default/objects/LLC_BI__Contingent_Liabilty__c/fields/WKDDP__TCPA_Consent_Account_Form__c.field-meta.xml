@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WKDDP__TCPA_Consent_Account_Form__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Users select this optional boolean field when the financial institution wants to generate a Telephone Consumer Protection Act Consent Account form for the signer. By default, it is false.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select this checkbox to generate a Telephone Consumer Protection Act Consent Account form for the signer.</inlineHelpText>
+    <label>TCPA Consent Account Form</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

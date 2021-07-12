@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>LLC_BI__Commercial_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>LLC_BI__UI_Risk_Rating</name>
+    </fieldSets>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>LLC_BI__Mandatory_comment</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>Create_New_Risk_Rating_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Create_Risk_Rating_Account</name>
+    </webLinks>
+</CustomObjectTranslation>

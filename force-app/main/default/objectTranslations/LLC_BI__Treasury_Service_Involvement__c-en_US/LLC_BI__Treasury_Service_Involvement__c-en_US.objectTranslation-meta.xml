@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>Add</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>Lockbox_Location</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>Scanner_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>Wire_Limit</name>
+    </fieldSets>
+</CustomObjectTranslation>

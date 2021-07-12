@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>LLC_BI__Close_Date_Moved</fullName>
+        <ccEmails>Demo@Bankr.com</ccEmails>
+        <description>Close Date Moved</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>LLC_BI__Bankr_Templates/LLC_BI__Workflow_Alert_Close_Date_Accelerated</template>
+    </alerts>
+    <alerts>
+        <fullName>LLC_BI__Guarantee_Fee_Not_Paid</fullName>
+        <ccEmails>Demo@Bankr.com</ccEmails>
+        <description>Guarantee Fee Not Paid</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>LLC_BI__Bankr_Templates/LLC_BI__Guarantee_Fee_Not_Paid</template>
+    </alerts>
+    <alerts>
+        <fullName>LLC_BI__Loan_Withdrawn_Declined</fullName>
+        <ccEmails>Demo@Bankr.com</ccEmails>
+        <description>Loan Withdrawn / Declined</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>LLC_BI__Bankr_Templates/LLC_BI__Loan_Withdrawn_Declined</template>
+    </alerts>
+    <alerts>
+        <fullName>LLC_BI__Order_New_Appraisal_Alert</fullName>
+        <ccEmails>Demo@Bankr.com</ccEmails>
+        <description>Order New Appraisal Alert</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>LLC_BI__Bankr_Templates/LLC_BI__Order_Appraisal</template>
+    </alerts>
+    <alerts>
+        <fullName>LLC_BI__Stage_Change_to_Compliance</fullName>
+        <ccEmails>Demo@Bankr.com</ccEmails>
+        <description>Stage Change to Compliance</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>LLC_BI__Bankr_Templates/LLC_BI__Stage_Change_Alert</template>
+    </alerts>
+    <alerts>
+        <fullName>Opportunity_stage_is_now_closed_won</fullName>
+        <description>Opportunity stage is now closed won</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>anjurk42@ncinotraining.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/CommunityChangePasswordEmailTemplate</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>LLC_BI__Update_Start_Date_of_Current_Stage</fullName>
+        <field>LLC_BI__Start_Date_at_Current_Stage__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Start Date of Current Stage</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>opportunity_code_update</fullName>
+        <field>Opportunity_Code__c</field>
+        <literalValue>200</literalValue>
+        <name>opportunity code update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <outboundMessages>
+        <fullName>OutboundABC</fullName>
+        <apiVersion>52.0</apiVersion>
+        <endpointUrl>https://ncino57.lightning.force.com/lightning/page/home</endpointUrl>
+        <fields>Amount</fields>
+        <fields>Id</fields>
+        <includeSessionId>true</includeSessionId>
+        <integrationUser>anjurk42@ncinotraining.com</integrationUser>
+        <name>OutboundABC</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <rules>
+        <fullName>Field update</fullName>
+        <actions>
+            <name>opportunity_code_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.LeadSource</field>
+            <operation>equals</operation>
+            <value>Web</value>
+        </criteriaItems>
+        <description>Field update</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>LLC_BI__Update Start Date of Current Stage</fullName>
+        <actions>
+            <name>LLC_BI__Update_Start_Date_of_Current_Stage</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED(StageName)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>OutboundABC</fullName>
+        <actions>
+            <name>OutboundABC</name>
+            <type>OutboundMessage</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Amount</field>
+            <operation>equals</operation>
+            <value>2000</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Task genetation</fullName>
+        <actions>
+            <name>High_amount</name>
+            <type>Task</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Amount</field>
+            <operation>equals</operation>
+            <value>1000</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>email alerts if stage closed won</fullName>
+        <actions>
+            <name>Opportunity_stage_is_now_closed_won</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Closed Won</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <tasks>
+        <fullName>High_amount</fullName>
+        <assignedTo>anjurk42@ncinotraining.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <description>High priority</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>Opportunity.CreatedDate</offsetFromField>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>In Progress</status>
+        <subject>High Priority</subject>
+    </tasks>
+</Workflow>

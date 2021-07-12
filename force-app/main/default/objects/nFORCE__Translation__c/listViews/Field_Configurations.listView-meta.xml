@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Configurations</fullName>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <columns>NAME</columns>
+    <columns>nFORCE__Translation_Key__c</columns>
+    <columns>nFORCE__Language__c</columns>
+    <columns>nFORCE__Feature_Translation__c</columns>
+    <columns>nFORCE__Original_Text__c</columns>
+    <columns>nFORCE__Translated_Text__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>nFORCE__Feature_Translation__c</field>
+        <operation>equals</operation>
+        <value>Field_Configuration_Alternate_Labels</value>
+    </filters>
+    <filters>
+        <field>nFORCE__Feature_Translation__c</field>
+        <operation>equals</operation>
+        <value>Field_Configuration_Field_Hints</value>
+    </filters>
+    <filters>
+        <field>nFORCE__Feature_Translation__c</field>
+        <operation>equals</operation>
+        <value>Field_Configuration_Filter_Display_Name</value>
+    </filters>
+    <filters>
+        <field>nFORCE__Feature_Translation__c</field>
+        <operation>equals</operation>
+        <value>Field_Configuration_Tooltip_Contents</value>
+    </filters>
+    <filters>
+        <field>nFORCE__Feature_Translation__c</field>
+        <operation>equals</operation>
+        <value>Field_Configuration_Tooltip_Text</value>
+    </filters>
+    <label>Field Configurations</label>
+</ListView>

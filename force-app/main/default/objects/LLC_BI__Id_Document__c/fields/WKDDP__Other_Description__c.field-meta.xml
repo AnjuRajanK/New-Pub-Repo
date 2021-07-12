@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WKDDP__Other_Description__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Administrators enter a description of the &apos;other&apos; type of identification provided by the additional signature.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter a description of the &apos;other&apos; type of identification provided by the additional signature.</inlineHelpText>
+    <label>Other Description</label>
+    <length>1000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

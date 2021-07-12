@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expiry_Date_FS</fullName>
+    <description>Expiry_Date_FS</description>
+    <displayedFields>
+        <field>Expiry_Date__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Expiry Date FS</label>
+</FieldSet>

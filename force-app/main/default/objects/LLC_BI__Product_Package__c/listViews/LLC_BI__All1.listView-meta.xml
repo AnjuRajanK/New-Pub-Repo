@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LLC_BI__All1</fullName>
+    <columns>NAME</columns>
+    <columns>LLC_BI__Account__c</columns>
+    <columns>LLC_BI__Total_Loan_Facilities_Amount__c</columns>
+    <columns>LLC_BI__Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>notContain</operation>
+        <value>a2P6A</value>
+    </filters>
+    <label>All</label>
+</ListView>

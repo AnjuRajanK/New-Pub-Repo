@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>nRetail__Add_Income</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>nRetail__Income_Schedule</name>
+    </fieldSets>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>nRetail__Monthly_Yearly_Income</name>
+    </validationRules>
+</CustomObjectTranslation>

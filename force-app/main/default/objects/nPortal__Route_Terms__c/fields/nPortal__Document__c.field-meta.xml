@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nPortal__Document__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Salesforce Id of the Document which will be displayed on a given Route in Online Applications</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Salesforce ID of the Document you wish to display for agreement on a particular Route in an Online Application.</inlineHelpText>
+    <label>Document</label>
+    <length>18</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

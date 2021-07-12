@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LLC_BI__Short_Code__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The short code is generated in PrecisionLender when a loan is priced. This code serves as the roundtrip Id which follows the loan&apos;s journey through pricing, booking and then back to PL through the RA process.</description>
+    <externalId>false</externalId>
+    <label>Short Code</label>
+    <length>50</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

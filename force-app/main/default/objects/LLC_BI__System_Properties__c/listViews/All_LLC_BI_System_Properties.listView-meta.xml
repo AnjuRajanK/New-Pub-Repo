@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_LLC_BI_System_Properties</fullName>
+    <columns>NAME</columns>
+    <columns>LLC_BI__Category_Name__c</columns>
+    <columns>LLC_BI__Is_Active__c</columns>
+    <columns>LLC_BI__Key__c</columns>
+    <columns>LLC_BI__Value__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All LLC_BI System Properties</label>
+    <language>en_US</language>
+</ListView>

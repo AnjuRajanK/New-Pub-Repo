@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WKDDP__Certificate_Of_Deposit_Certificate_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Administrators populate this optional picklist to determine the user&apos;s preferred certificate format, combo or CD-only, and type, true certificate or receipt.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the preferred certificate format and type. The Certified Combo doc generates the long-form certificate, a signature card, and the account disclosure combination form.</inlineHelpText>
+    <label>Certificate Of Deposit Certificate Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Certificated--Combo Doc</fullName>
+                <default>false</default>
+                <label>Certificated--Combo Doc</label>
+            </value>
+            <value>
+                <fullName>Certificated--CD Only</fullName>
+                <default>false</default>
+                <label>Certificated--CD Only</label>
+            </value>
+            <value>
+                <fullName>Uncertificated--Combo Doc</fullName>
+                <default>false</default>
+                <label>Uncertificated--Combo Doc</label>
+            </value>
+            <value>
+                <fullName>Uncertificated--Receipt Only</fullName>
+                <default>false</default>
+                <label>Uncertificated--Receipt Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>WKDDP__Certificate_Of_Deposit_Certificate_Type__c</name>
+    <picklistValues>
+        <masterLabel>Certificated--CD Only</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Certificated--Combo Doc</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uncertificated--Combo Doc</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uncertificated--Receipt Only</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

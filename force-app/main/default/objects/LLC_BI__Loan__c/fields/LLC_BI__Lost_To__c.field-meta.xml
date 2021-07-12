@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LLC_BI__Lost_To__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is optional. It is manually populated. It specifies the competitor to which the loan was lost. If provided, the value must match one of the values in the Lost To picklist established for this financial institution.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please specify the competitor the loan was lost to if applicable</inlineHelpText>
+    <label>Lost To</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LLC_BI__Status__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Wells Fargo / Matsco</fullName>
+                <default>false</default>
+                <label>Wells Fargo / Matsco</label>
+            </value>
+            <value>
+                <fullName>BofA</fullName>
+                <default>false</default>
+                <label>BofA</label>
+            </value>
+            <value>
+                <fullName>US Bank</fullName>
+                <default>false</default>
+                <label>US Bank</label>
+            </value>
+            <value>
+                <fullName>Zions</fullName>
+                <default>false</default>
+                <label>Zions</label>
+            </value>
+            <value>
+                <fullName>Conventional Lender</fullName>
+                <default>false</default>
+                <label>Conventional Lender</label>
+            </value>
+            <value>
+                <fullName>First Command</fullName>
+                <default>false</default>
+                <label>First Command</label>
+            </value>
+            <value>
+                <fullName>Greenwood</fullName>
+                <default>false</default>
+                <label>Greenwood</label>
+            </value>
+            <value>
+                <fullName>Compass Bank</fullName>
+                <default>false</default>
+                <label>Compass Bank</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Withdrawn</controllingFieldValue>
+            <valueName>Wells Fargo / Matsco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawn</controllingFieldValue>
+            <valueName>BofA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawn</controllingFieldValue>
+            <valueName>US Bank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawn</controllingFieldValue>
+            <valueName>Zions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawn</controllingFieldValue>
+            <valueName>Conventional Lender</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawn</controllingFieldValue>
+            <valueName>First Command</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawn</controllingFieldValue>
+            <valueName>Greenwood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawn</controllingFieldValue>
+            <valueName>Compass Bank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawn</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

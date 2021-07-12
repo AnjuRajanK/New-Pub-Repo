@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LLC_BI__Term_Unit__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Units in which the term is measured.  Corresponds to custom metadata Periods with Units category.</description>
+    <externalId>false</externalId>
+    <label>Term Unit</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unit_Semi_Monthly</fullName>
+                <default>false</default>
+                <label>Unit_Semi_Monthly</label>
+            </value>
+            <value>
+                <fullName>Unit_Monthly</fullName>
+                <default>true</default>
+                <label>Unit_Monthly</label>
+            </value>
+            <value>
+                <fullName>Unit_Bi_Monthly</fullName>
+                <default>false</default>
+                <label>Unit_Bi_Monthly</label>
+            </value>
+            <value>
+                <fullName>Unit_Quarterly</fullName>
+                <default>false</default>
+                <label>Unit_Quarterly</label>
+            </value>
+            <value>
+                <fullName>Unit_Semi_Annually</fullName>
+                <default>false</default>
+                <label>Unit_Semi_Annually</label>
+            </value>
+            <value>
+                <fullName>Unit_Annually</fullName>
+                <default>false</default>
+                <label>Unit_Annually</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

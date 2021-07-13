@@ -8,7 +8,7 @@ on:
 jobs:
   sonarcloud:
     name: SonarCloud
-    runs-on: ubuntu-latest
+    runs-on: Microsoft Windows 10 Enterprise
     steps:
       - uses: actions/checkout@v2
         with:
